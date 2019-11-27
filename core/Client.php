@@ -226,11 +226,11 @@ final class Client extends iClient
         ];
         $response = $this->request('post', $url, $options, false);
 
-        if (!isset($response['Location']))
+        if ($response->hasHeader('Location'))
         {
-            return '';
+            return $response->getHeader('Location')[0];
         }
-        return $response['Location'];
+        return '';
     }
 
     /**

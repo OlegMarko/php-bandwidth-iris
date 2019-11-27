@@ -1,10 +1,9 @@
 {
-    "name": "bandwidth/iris",
+    "name": "fixik/bandwidth",
     "type": "library",
     "description": "Bandwidth's Iris SDK for PHP",
     "keywords": ["iris","sdk","php"],
     "homepage": "http://dev.bandwidth.com",
-    "reference": "v2.0.6",
     "license": "MIT",
     "authors": [
     ],
