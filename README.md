@@ -30,7 +30,7 @@ PHP Client library for Bandwidth's Phone Number Dashboard (AKA: Dashboard, Iris)
 Run
 
 ```bash
-composer require bandwidth/iris
+composer require fixik/iris
 ```
 
 ## Usage
